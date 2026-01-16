@@ -8,7 +8,7 @@ Patients diagnosed with brain tumors face a "Black Hole" after leaving the hospi
 1. **Diagnostic Lag**: Radiologists are overwhelmed, delaying treatment start.
 2. **Medication Failure:** 40% of oncology patients fail to follow complex post-op drug regimens.
 
-## The Solution: NeuroBridge
+## The Solution: NeuroMed
 A comprehensive oncology OS that uses **MedGemma 1.5** via the **OnDemand platform** to:
 - **Analyze:** Instant 3D MRI tumor detection using MedSigLIP encoders.
 - **Act:** Six specialized agents manage everything from dosage to drug safety.
