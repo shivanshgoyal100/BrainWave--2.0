@@ -1,6 +1,6 @@
 # BrainWave--2.0
 
-# NeuroMat: Closing the Oncology Gap 
+# NeuroMed: Closing the Oncology Gap 
 **Track:** brAInwave 2.0 OpenInnovation Track
 
 ## The Problem
