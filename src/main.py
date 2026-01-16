@@ -6,7 +6,7 @@ from ondemand_sdk import AirevClient  # Mocking OnDemand SDK based on track info
 # Initialize OnDemand Platform (Airev)
 client = AirevClient(api_key=os.getenv("AIREV_API_KEY"))
 
-def run_neuro_bridge(mri_file):
+def run_neuro_med(mri_file):
     """
     Orchestrates the patient journey from scan to medication.
     """
@@ -33,5 +33,5 @@ def run_neuro_bridge(mri_file):
     return treatment_plan
 
 if __name__ == "__main__":
-    result = run_neuro_bridge("data/sample_mri.dcm")
+    result = run_neuro_med("data/sample_mri.dcm")
     print(f"\nFinal Treatment Bridge Output:\n{result}")
